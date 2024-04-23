@@ -19,7 +19,7 @@ export default function HotelPage({ params }) {
 
   return (
     <div>
-      <Image src={hotel?.featuredImage} alt="Hotel image" width={300} height={300} />
+      {hotel ? <Image src={hotel.featuredImage} alt="Hotel image" width={300} height={300} /> : <div>Loading...</div>}
     </div>
   );
 }

@@ -21,7 +21,7 @@ export default function Home() {
     <div>
       {hotels.map((hotel) => {
         return (
-          <div className="hotelCards" key={hotel.id}>
+          <div className="flex justify-center mt-[50px] gap-[30px]" key={hotel.id}>
             <Image src={hotel.featuredImage} alt="hotel image" width={300} height={300} />
             <div className="hotelDetails">
               <h1>{hotel.name}</h1>

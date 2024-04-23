@@ -18,12 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -32,8 +27,7 @@ body {
   }
 }
 
-
-nav{
+nav {
   /* background-color: grey; */
   padding: 30px 0;
   display: flex;
@@ -43,50 +37,50 @@ nav{
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-ul{
+ul {
   display: flex;
   margin-right: 40%;
   gap: 50px;
 }
-li{
+li {
   color: black !important;
   font-style: oblique;
   font-size: 25px;
   font-weight: 400;
   margin-top: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.logo{
+.logo {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-left: 10%;
   color: black !important;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 20px;
-
 }
-.logo p{
+.logo p {
   font-style: italic;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 15px;
 }
-.hotelCards{
+
+/* .hotelCards{
   display: flex;
   justify-content: center;
   margin-top: 50px;
   gap: 30px;
-}
-img{
+} */
+
+img {
   width: 300px;
 }
-.hotelDetails{
+.hotelDetails {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.btnDetails{
+.btnDetails {
   padding: 10px 20px;
   border: 2px solid white;
 }
-

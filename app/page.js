@@ -28,7 +28,7 @@ export default function Home() {
               <h3>
                 <strong>Address:</strong> {hotel.address}
               </h3>
-              <Link href="/fullinfo">
+              <Link href={`/hotels/${hotel.id}`}>
                 <button className="btnDetails">View Details</button>
               </Link>
             </div>

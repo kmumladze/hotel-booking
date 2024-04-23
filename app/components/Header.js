@@ -7,7 +7,7 @@ export default function Header() {
         <div className="logo">
           <a href="">
             <h1>
-              Loftet <i class="fa-solid fa-map-location"></i>
+              Loftet <i className="fa-solid fa-map-location"></i>
             </h1>
           </a>
           <p>-nice places to stay-</p>

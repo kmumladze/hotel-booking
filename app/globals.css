@@ -18,12 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -53,7 +48,7 @@ li {
   font-size: 25px;
   font-weight: 400;
   margin-top: 10px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo {
   display: flex;
@@ -61,21 +56,14 @@ li {
   text-align: center;
   margin-left: 10%;
   color: black !important;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
 .logo p {
   font-style: italic;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 15px;
 }
-
-/* .hotelCards{
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  gap: 30px;
-} */
 
 img {
   width: 300px;

@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+import HotelDetails from '@/app/components/HotelDetails';
 import { useEffect, useState } from 'react';
 
 export default function HotelPage({ params }) {
@@ -17,9 +17,5 @@ export default function HotelPage({ params }) {
     fetchHotels();
   }, [hotelId]);
 
-  return (
-    <div>
-      {hotel ? <Image src={hotel.featuredImage} alt="Hotel image" width={300} height={300} /> : <div>Loading...</div>}
-    </div>
-  );
+  return <div>{hotel ? <HotelDetails hotel={hotel} /> : <div>Loading...</div>}</div>;
 }
